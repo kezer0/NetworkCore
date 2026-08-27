@@ -1,0 +1,6 @@
+name: NetworkCore
+version: '${version}'
+
+main: me.kezer0.networkCore.NetworkCore
+api-version: '26.2'
+load: STARTUP

@@ -1,0 +1,15 @@
+# Network-wide PostgreSQL configuration.
+# This file belongs to NetworkCore, not to an individual game plugin.
+# Never commit real production credentials.
+enabled: true
+host: localhost
+port: 5432
+database: network
+username: postgres
+password: superpassword
+starting-balance: 1000.00
+pool:
+  maximum: 8
+  minimum-idle: 2
+  connection-timeout-ms: 10000
+  max-lifetime-ms: 1800000
