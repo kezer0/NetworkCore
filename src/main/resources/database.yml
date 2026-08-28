@@ -4,7 +4,7 @@
 enabled: true
 host: localhost
 port: 5432
-database: network
+database: minecraft_network
 username: postgres
 password: superpassword
 starting-balance: 1000.00

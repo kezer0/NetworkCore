@@ -52,6 +52,7 @@ public final class NetworkDatabase implements DatabaseService {
             String password = cfg.getString("password", "change-me");
 
             hikari.setJdbcUrl("jdbc:postgresql://" + host + ":" + port + "/" + database);
+            hikari.setDriverClassName("org.postgresql.Driver");
             hikari.setUsername(username);
             hikari.setPassword(password);
             hikari.setMaximumPoolSize(Math.max(2, cfg.getInt("pool.maximum", 8)));

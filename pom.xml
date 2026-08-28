@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.kezer0</groupId>
-    <artifactId>networkcore</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>NetworkCore</artifactId>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
 
-    <name>networkcore</name>
+    <name>NetworkCore</name>
 
     <properties>
         <java.version>25</java.version>
